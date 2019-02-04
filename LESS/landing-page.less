@@ -2,12 +2,28 @@
 
 #one {
 
-
+    .image-container-one {
+        width: 350px;
+        height: auto;
+        margin: 50px 0 20px;
+    }
 
 }
 
 #two {
 
+    .inner-top-container {
+        .flex-row-center();
+        .wrap();
+        .space-between;
+
+        .image-container-two {
+            display: inline-block;
+            width: 125px;
+            height: auto;
+            margin: 20px 0;
+        }
+    }
 }
 
 #three {
@@ -22,13 +38,3 @@
 
 }
 
-.image-container-one {
-    width: 350px;
-    height: auto;
-}
-
-.image-container-two {
-    display: inline-block;
-    width: 125px;
-    height: auto;
-}
