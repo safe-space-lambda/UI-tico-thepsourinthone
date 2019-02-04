@@ -153,14 +153,14 @@ h3 {
 p {
   line-height: 1.5;
   font-size: 1.6rem;
-  padding-bottom: 10px;
+  padding: 10px 0;
 }
 img {
   max-width: 100%;
   height: auto;
 }
 .container {
-  max-width: 500px;
+  max-width: 375px;
   width: 90%;
   margin: 0 auto;
 }
