@@ -6,7 +6,12 @@ div.image {
     height: auto;
 }
 
+div.smaller-image {
+    width: 75px;
+}
+
 img {
     width: 100%;
 }
+
 
