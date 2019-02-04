@@ -1,13 +1,15 @@
 
 
 
-div.image {
-    width: 200px;
+.image-section-one {
+    width: 400px;
     height: auto;
 }
 
-div.smaller-image {
-    width: 75px;
+.image-section-two {
+    display: inline-block;
+    width: 200px;
+    height: auto;
 }
 
 img {
