@@ -145,6 +145,7 @@ h2,
 h3 {
   font-family: 'Poppins', sans-serif;
   text-align: center;
+  margin: 40px 0 20px;
 }
 h1 {
   font-size: 4rem;
@@ -173,11 +174,11 @@ img {
   width: 95%;
   margin: 0 auto;
 }
-.image-section-one {
+.image-container-one {
   width: 350px;
   height: auto;
 }
-.image-section-two {
+.image-container-two {
   display: inline-block;
   width: 125px;
   height: auto;
