@@ -235,14 +235,8 @@ button:hover {
   justify-content: center;
   align-items: center;
 }
-#footer ul.icons .fa-twitter {
-  color: white;
-  margin: 20px 30px 40px;
-}
-#footer ul.icons .fa-facebook-square {
-  color: #4361c2;
-  margin: 20px 30px 40px;
-}
+#footer ul.icons .fa-twitter,
+#footer ul.icons .fa-facebook-square,
 #footer ul.icons .fa-envelope {
   color: white;
   margin: 20px 30px 40px;
@@ -255,6 +249,7 @@ button:hover {
   width: 100%;
 }
 #footer ul.copyright li {
+  color: #4a87d3;
   font-size: 1.4rem;
   margin: 0 15px 30px;
 }
