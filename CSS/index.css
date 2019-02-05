@@ -215,11 +215,13 @@ p {
 @media (min-width: 800px) {
   p {
     font-size: 2.5rem;
+    padding: 15px 30px;
   }
 }
 @media (min-width: 1000px) {
   p {
     font-size: 3rem;
+    padding: 30px 200px;
   }
 }
 a {
