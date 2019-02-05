@@ -264,6 +264,23 @@ img:hover {
   color: white;
   border: 3px solid #c3e895;
 }
+@media (min-width: 800px) {
+  .button:hover {
+    background-color: #57aed3;
+    color: white;
+    border: 3px solid #c3e895;
+  }
+}
+@media (min-width: 800px) {
+  .button {
+    padding: 10px 65px;
+  }
+}
+@media (min-width: 1000px) {
+  .button {
+    padding: 10px 32px;
+  }
+}
 .jello-vertical:hover {
   -webkit-animation: jello-vertical 0.9s both;
   animation: jello-vertical 0.9s both;
