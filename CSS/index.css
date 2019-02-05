@@ -368,7 +368,7 @@ button:hover {
 }
 #footer ul.copyright {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -378,8 +378,13 @@ button:hover {
   font-size: 1.4rem;
   margin: 0 15px 30px;
 }
+#footer ul.copyright .html5up,
+#footer ul.copyright .pexels {
+  color: white;
+  text-decoration: none;
+}
 #one .image-container-one {
-  width: 350px;
+  width: 365px;
   height: auto;
 }
 #two .inner-top-container {
@@ -392,6 +397,13 @@ button:hover {
 }
 #two .inner-top-container .image-container-two {
   display: inline-block;
-  width: 145px;
+  width: 150px;
   height: auto;
+}
+#three .image-container-three {
+  width: 275px;
+  height: auto;
+}
+#four {
+  margin-bottom: 75px;
 }
