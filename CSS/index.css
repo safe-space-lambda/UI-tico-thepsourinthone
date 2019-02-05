@@ -169,6 +169,9 @@ p {
   padding: 10px 0;
   text-align: center;
 }
+a {
+  text-align: center;
+}
 img {
   border-radius: 5px;
   max-width: 100%;
@@ -182,7 +185,7 @@ img:hover {
   width: 90%;
   margin: 0 auto;
 }
-button {
+.button {
   border-radius: 25px;
   width: 100%;
   background-color: white;
@@ -192,7 +195,7 @@ button {
   padding: 10px 130px;
   margin: 20px 0;
 }
-button:hover {
+.button:hover {
   cursor: pointer;
   background-color: #6b88e6;
   color: white;
@@ -406,4 +409,7 @@ button:hover {
 }
 #four {
   margin-bottom: 75px;
+}
+#four a {
+  text-decoration: none;
 }
