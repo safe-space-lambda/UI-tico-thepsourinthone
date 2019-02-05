@@ -147,6 +147,18 @@ body {
   width: 90%;
   margin: 0 auto;
 }
+@media (min-width: 800px) {
+  body {
+    background-color: #6b88e6;
+    max-width: 801px;
+  }
+}
+@media (min-width: 1000px) {
+  body {
+    background-color: #6bd4c8;
+    max-width: 1250px;
+  }
+}
 h1,
 h2,
 h3 {
@@ -434,7 +446,7 @@ img:hover {
 }
 #footer ul.copyright li {
   color: #4a87d3;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   margin: 0 15px 30px;
 }
 #footer ul.copyright li .html5up,
