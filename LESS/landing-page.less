@@ -2,11 +2,17 @@
 
 #one {
 
-    .image-container-one {
-        width: 365px;
-        height: auto;
-    }
+    .inner-container {
 
+        .image-container-one {
+            width: 365px;
+            height: auto;
+        }
+
+        @media @desktop {
+            .flex-row-center();
+        }
+    }
 }
 
 #two {
