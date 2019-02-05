@@ -165,6 +165,7 @@ p {
   line-height: 1.5;
   font-size: 1.6rem;
   padding: 10px 0;
+  border: 1px solid red;
 }
 img {
   border-radius: 5px;
@@ -173,11 +174,12 @@ img {
   margin: 50px 0 20px;
 }
 .button-container {
-  width: 100%;
+  max-width: 100%;
   margin: 0 auto;
 }
 button {
   border-radius: 5px;
+  width: 100%;
   color: white;
   background-color: #4a87d3;
   font-size: 2.8rem;
@@ -201,6 +203,8 @@ button:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 95%;
+  margin: 0 auto;
 }
 .inner-top-container,
 .inner-middle-container,
@@ -222,7 +226,7 @@ button:hover {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 #two .inner-top-container .image-container-two {
   display: inline-block;

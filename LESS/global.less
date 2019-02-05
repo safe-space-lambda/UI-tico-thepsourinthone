@@ -41,6 +41,7 @@
     line-height: 1.5;
     font-size: 1.6rem;
     padding: 10px 0;
+    border: 1px solid red;
   }
   
   img {
@@ -51,12 +52,13 @@
   }
 
   .button-container {
-    width: 100%;
+    max-width: 100%;
     margin: 0 auto;
   }
 
   button {
     .border-radius();
+    width: 100%;
     color: white;
     background-color: @kentucky-blue;
     font-size: 2.8rem;
@@ -78,6 +80,8 @@
 
   .inner-container {
     .flex-column-center();
+    width: 95%;
+    margin: 0 auto;
   }
 
   .inner-top-container, .inner-middle-container, .inner-bottom-container, .button-container, .text-container {
