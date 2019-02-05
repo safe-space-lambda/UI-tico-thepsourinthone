@@ -165,6 +165,10 @@ img {
   border-radius: 5px;
   max-width: 100%;
   height: auto;
+  margin: 50px 0 20px;
+}
+button {
+  font-size: 1.6rem;
 }
 .container {
   display: flex;
@@ -185,7 +189,9 @@ img {
 }
 .inner-top-container,
 .inner-middle-container,
-.inner-bottom-container {
+.inner-bottom-container,
+.text-container,
+.button-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -196,7 +202,6 @@ img {
 #one .image-container-one {
   width: 350px;
   height: auto;
-  margin: 50px 0 20px;
 }
 #two .inner-top-container {
   display: flex;
@@ -210,5 +215,4 @@ img {
   display: inline-block;
   width: 125px;
   height: auto;
-  margin: 20px 0;
 }
