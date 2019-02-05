@@ -238,6 +238,16 @@ img:hover {
   width: 90%;
   margin: 0 auto;
 }
+@media (min-width: 800px) {
+  .button-container {
+    width: 50%;
+  }
+}
+@media (min-width: 1000px) {
+  .button-container {
+    width: 25%;
+  }
+}
 .button {
   border-radius: 25px;
   width: 100%;
