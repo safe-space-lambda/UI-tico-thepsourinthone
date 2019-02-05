@@ -186,13 +186,13 @@ img:hover {
   margin: 0 auto;
 }
 button {
-  border-radius: 5px;
+  border-radius: 20px;
   width: 100%;
   background-color: white;
-  font-size: 2.8rem;
+  font-size: 2rem;
   color: #6b88e6;
   border: 3px solid white;
-  padding: 20px 100px;
+  padding: 7px 130px;
   margin: 20px 0;
 }
 button:hover {
