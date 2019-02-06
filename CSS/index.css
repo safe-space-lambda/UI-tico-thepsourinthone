@@ -480,6 +480,13 @@ img:hover {
     color: #8addaa;
   }
 }
+@media (min-width: 1000px) {
+  #footer ul.icons .fa-twitter:hover,
+  #footer ul.icons .fa-facebook-square:hover,
+  #footer ul.icons .fa-envelope:hover {
+    color: #4361c2;
+  }
+}
 #footer ul.icons .rotate-in-center:hover {
   -webkit-animation: rotate-in-center 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation: rotate-in-center 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
@@ -533,6 +540,22 @@ img:hover {
 #footer ul.copyright li .pexels {
   color: white;
   text-decoration: none;
+}
+#footer ul.copyright li .html5up:hover,
+#footer ul.copyright li .pexels:hover {
+  color: #4361c2;
+}
+@media (min-width: 800px) {
+  #footer ul.copyright li .html5up:hover,
+  #footer ul.copyright li .pexels:hover {
+    color: #8addaa;
+  }
+}
+@media (min-width: 1000px) {
+  #footer ul.copyright li .html5up:hover,
+  #footer ul.copyright li .pexels:hover {
+    color: #4361c2;
+  }
 }
 #footer ul.copyright .wobble-hor-bottom:hover {
   -webkit-animation: wobble-hor-bottom 1.5s both;
