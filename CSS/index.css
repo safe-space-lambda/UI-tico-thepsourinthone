@@ -628,6 +628,16 @@ img:hover {
   }
 }
 @media (min-width: 1000px) {
+  #two .inner-container .inner-top-container {
+    width: 39%;
+  }
+}
+@media (min-width: 1000px) {
+  #two .inner-container .inner-bottom-container {
+    width: 60%;
+  }
+}
+@media (min-width: 1000px) {
   #two .inner-container {
     display: flex;
     flex-direction: row;
