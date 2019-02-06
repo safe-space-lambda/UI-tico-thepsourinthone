@@ -57,11 +57,17 @@
 
 #three {
 
-    .image-container-three {
-        width: 275px;
-        height: auto;
-    }
+    div.inner-container {
 
+        .image-container-three {
+            width: 275px;
+            height: auto;
+        }
+      
+        @media @desktop {
+            .flex-row-center();
+        }
+    }
 }
 
 #four {
