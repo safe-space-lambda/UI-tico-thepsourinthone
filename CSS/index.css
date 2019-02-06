@@ -221,7 +221,7 @@ p {
 @media (min-width: 1000px) {
   p {
     font-size: 3rem;
-    padding: 30px 200px;
+    padding: 30px 100px;
   }
 }
 a {
@@ -585,6 +585,16 @@ img:hover {
 #one .inner-container .image-container-one {
   width: 365px;
   height: auto;
+}
+@media (min-width: 800px) {
+  #one .inner-container .image-container-one {
+    width: 450px;
+  }
+}
+@media (min-width: 1000px) {
+  #one .inner-container .image-container-one {
+    width: 500px;
+  }
 }
 @media (min-width: 1000px) {
   #one .inner-container {
