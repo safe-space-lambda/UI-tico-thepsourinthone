@@ -159,8 +159,8 @@ body {
     max-width: 1250px;
   }
 }
-section,
-#footer {
+section {
+  width: 90%;
   margin-top: 50px;
   padding-top: 25px;
   border-top: 1px solid white;
@@ -440,6 +440,12 @@ img:hover {
 }
 #header a:hover {
   color: white;
+}
+#footer {
+  width: 90%;
+  margin-top: 50px;
+  padding-top: 25px;
+  border-top: 1px solid white;
 }
 #footer ul.icons {
   display: flex;
