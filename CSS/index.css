@@ -617,6 +617,16 @@ img:hover {
   width: 150px;
   height: auto;
 }
+@media (min-width: 800px) {
+  #two .inner-top-container .image-container-two {
+    width: 100px;
+  }
+}
+@media (min-width: 1000px) {
+  #two .inner-top-container .image-container-two {
+    width: 125px;
+  }
+}
 #three .image-container-three {
   width: 275px;
   height: auto;
