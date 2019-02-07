@@ -259,6 +259,7 @@ p {
 }
 a {
   text-align: center;
+  text-decoration: none;
 }
 img {
   border-radius: 5px;
@@ -882,14 +883,6 @@ img:hover {
 #three div.inner-container .image-container-three {
   width: 275px;
   height: auto;
-}
-@media (min-width: 1000px) {
-  #three div.inner-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
 }
 #four a {
   text-decoration: none;
