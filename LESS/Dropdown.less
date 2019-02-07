@@ -1,8 +1,9 @@
 .dropdown {
+  display: flex;
+  justify-content: space-between;
   z-index: 2;
-  position: absolute;
-  left: 25px;
   cursor: pointer;
+  
 
   .dropdown-button {
     .flex-row-center();
@@ -35,7 +36,7 @@
       .flex-row-center();
       font-size: 2.5rem;
       text-align: center;
-      padding: 0px;
+      padding-bottom: 20px;
 
       @media @tablet {
         font-size: 3.0rem;
@@ -52,25 +53,26 @@
     }
   }
   .dropdown-content {
-    width: 100%;
+    width: 11%;
     position: absolute;
-    background-color: @white;
+    top: 90px;
     display: flex;
     flex-direction: column;
     align-items: center;  
     margin-top: 10px;
-    border: 2.5px solid @twitter-blue;
+    border: 2.5px solid white;
   }
+
   .dropdown-link {
     width: 100%;
     text-align: center;
     padding: 15px 0;
     font-size: 18px;
-    text-decoration: none;
-    color: @twitter-blue;
+
     &:hover {
-      color: @white;
+      color: white;
       background-color: @twitter-blue;
+      border: 2px solid white;
     }
   }
   .dropdown-hidden {
