@@ -544,9 +544,19 @@ img:hover {
   width: 90%;
 }
 .tabs .tabs-item .tabs-item-title {
-  font-size: 24px;
+  font-size: 3rem;
   font-weight: bold;
   padding-bottom: 10px;
+}
+@media (min-width: 800px) {
+  .tabs .tabs-item .tabs-item-title {
+    font-size: 4rem;
+  }
+}
+@media (min-width: 1000px) {
+  .tabs .tabs-item .tabs-item-title {
+    font-size: 5rem;
+  }
 }
 .tabs .tabs-item .tabs-item-image-container {
   display: inline-block;
@@ -591,6 +601,16 @@ img:hover {
 .tabs .tabs-link-selected:hover {
   background-color: #4361c2;
   color: #c3e895;
+}
+@media (min-width: 800px) {
+  .tabs {
+    width: 800px;
+  }
+}
+@media (min-width: 1000px) {
+  .tabs {
+    width: 1000px;
+  }
 }
 #header {
   margin: 20px 0;

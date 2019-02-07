@@ -11,6 +11,7 @@
     	justify-content: center;
     	padding-top: 30px;
     }
+
     .tabs-item {
 		display: none; 
 		color: black;
@@ -18,9 +19,17 @@
 		width: 90%;
 	  
     	.tabs-item-title {
-        	font-size: 24px;
+        	font-size: 3.0rem;
         	font-weight: bold;
-        	padding-bottom: 10px;
+            padding-bottom: 10px;
+            
+            @media @tablet {
+                font-size: 4.0rem;
+            }
+              
+            @media @desktop {
+                font-size: 5.0rem;
+            }
 		}
 	  
 	  	.tabs-item-image-container {
@@ -71,6 +80,14 @@
 		    background-color: @duke-blue;
 		    color: @pale-green;
         }
+    }
+
+    @media @tablet {
+        width: 800px;
+    }
+      
+    @media @desktop {
+        width: 1000px;
     }
 }
   
