@@ -527,6 +527,8 @@ img:hover {
   display: none;
 }
 .tabs {
+  display: flex;
+  flex-direction: row;
   background-color: white;
   width: 475px;
 }
@@ -534,7 +536,17 @@ img:hover {
   width: 100%;
   display: flex;
   justify-content: center;
-  padding-top: 30px;
+  padding-top: 0px;
+}
+@media (min-width: 800px) {
+  .tabs .tabs-items {
+    padding-top: 30px;
+  }
+}
+@media (min-width: 1000px) {
+  .tabs .tabs-items {
+    padding-top: 30px;
+  }
 }
 .tabs .tabs-item {
   display: none;
@@ -580,11 +592,22 @@ img:hover {
 }
 .tabs .tabs-links {
   display: flex;
+  flex-direction: column;
   background-color: white;
   width: 100%;
 }
+@media (min-width: 800px) {
+  .tabs .tabs-links {
+    flex-direction: row;
+  }
+}
+@media (min-width: 1000px) {
+  .tabs .tabs-links {
+    flex-direction: row;
+  }
+}
 .tabs .tabs-link {
-  width: 14%;
+  width: 50%;
   padding: 20px 25px;
   font-size: 2rem;
   background-color: #6b88e6;
@@ -595,6 +618,16 @@ img:hover {
 .tabs .tabs-link:hover {
   background-color: #57aed3;
   color: white;
+}
+@media (min-width: 800px) {
+  .tabs .tabs-link {
+    width: 25%;
+  }
+}
+@media (min-width: 1000px) {
+  .tabs .tabs-link {
+    width: 30%;
+  }
 }
 .tabs .tabs-link-selected {
   z-index: 2;
@@ -607,11 +640,13 @@ img:hover {
 }
 @media (min-width: 800px) {
   .tabs {
+    flex-direction: column;
     width: 775px;
   }
 }
 @media (min-width: 1000px) {
   .tabs {
+    flex-direction: column;
     width: 975px;
   }
 }
