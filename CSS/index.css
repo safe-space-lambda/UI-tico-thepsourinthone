@@ -438,7 +438,7 @@ img:hover {
   align-items: center;
   padding-top: 0px;
   margin-top: 20px;
-  border: 3px solid #ffffff;
+  border: 3px solid white;
   color: #ffffff;
 }
 .dropdown .dropdown-button .logo-img-container {
@@ -503,7 +503,7 @@ img:hover {
 }
 @media (min-width: 800px) {
   .dropdown .dropdown-content {
-    background-color: #6b88e6;
+    background-color: white;
     color: #c3e895;
   }
 }
@@ -604,6 +604,12 @@ img:hover {
     * ----------------------------------------
     */
 }
+#header a {
+  text-decoration: none;
+}
+#header a:hover {
+  color: white;
+}
 #header .text-pop-up-top {
   -webkit-animation: text-pop-up-top 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1s both;
   animation: text-pop-up-top 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1s both;
@@ -639,13 +645,6 @@ img:hover {
     transform-origin: 50% 50%;
     text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc, 0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc, 0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3);
   }
-}
-#header a {
-  text-decoration: none;
-  color: #6b88e6;
-}
-#header a:hover {
-  color: white;
 }
 #footer {
   width: 90%;
