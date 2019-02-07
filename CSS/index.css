@@ -491,7 +491,8 @@ img:hover {
   color: white;
 }
 .dropdown .dropdown-content {
-  width: 11%;
+  width: 156px;
+  background-color: white;
   position: absolute;
   top: 90px;
   display: flex;
@@ -499,6 +500,17 @@ img:hover {
   align-items: center;
   margin-top: 10px;
   border: 2.5px solid white;
+}
+@media (min-width: 800px) {
+  .dropdown .dropdown-content {
+    background-color: #6b88e6;
+    color: #c3e895;
+  }
+}
+@media (min-width: 1000px) {
+  .dropdown .dropdown-content {
+    background-color: none;
+  }
 }
 .dropdown .dropdown-link {
   width: 100%;
