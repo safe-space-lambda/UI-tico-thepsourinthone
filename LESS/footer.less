@@ -1,13 +1,12 @@
 #footer {
+    width: 90%;
+    margin-top: 50px;
+    padding-top: 25px;
+    border-top: 1px solid white;
+        
 
     ul.icons {
         .flex-row-center();
-
-        .twitter-icon, .facebook-icon, .envelope-icon {
-            &:hover{
-                color: @duke-blue;
-            }
-        }
 
         .fa-twitter, .fa-facebook-square, .fa-envelope {
             color: white;
@@ -15,6 +14,14 @@
 
             &:hover{
                 color: @duke-blue;
+
+                @media @tablet {
+                    color: @ocean-green;
+                }
+
+                @media @desktop {
+                    color: @duke-blue;
+                }
             }
         }
 
@@ -67,13 +74,25 @@
         width: 100%;
 
         li {
-            color: @kentucky-blue;
+            color: white;
             font-size: 1.6rem;
             margin: 0 15px 30px;
 
             .html5up, .pexels {
                 color: white;
                 text-decoration: none;
+
+                &:hover{
+                    color: @duke-blue;
+    
+                    @media @tablet {
+                        color: @ocean-green;
+                    }
+
+                    @media @desktop {
+                        color: @duke-blue;
+                    }
+                }
             }
   
         }
@@ -154,7 +173,5 @@
                     transform: translateX(-6px) rotate(-1.2deg);
             }
         }
-  
     }
-
 }

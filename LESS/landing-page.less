@@ -45,6 +45,17 @@
                     width: 125px;
                 }
             }
+          
+            @media @desktop {
+                width: 39%;
+            }
+        }
+
+        .inner-bottom-container {
+
+            @media @desktop {
+                width: 60%;
+            }
         }
 
         @media @desktop {
@@ -57,15 +68,20 @@
 
 #three {
 
-    .image-container-three {
-        width: 275px;
-        height: auto;
-    }
+    div.inner-container {
 
+        .image-container-three {
+            width: 275px;
+            height: auto;
+        }
+      
+        @media @desktop {
+            .flex-row-center();
+        }
+    }
 }
 
 #four {
-    margin-bottom: 75px;
 
     a {
         text-decoration: none;
