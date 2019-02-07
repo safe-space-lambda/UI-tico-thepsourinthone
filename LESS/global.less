@@ -37,18 +37,20 @@
     height: 70px;
   }
   
-  .section {
-    width: 70%;
+  .tabs-container {
+    width: 100%;
     margin: 45px auto;
     display: flex;
-    border: 1px solid @lambda-red;
-    box-shadow: 1px 1px 5px @lambda-red;
-    border-radius: 10px;
-    overflow: hidden;
+    border: 1px solid @duke-blue;
+    box-shadow: 1px 1px 5px @tiffany-blue;
+    border-radius: 5px;
+    overflow: scroll;
+
     .box {
-      padding: 40px;
+      padding: 10px;
+
       .box-title {
-        font-size: 24px;
+        font-size: 2.0rem;
         padding-bottom: 10px;
         font-weight: bold;
       }
@@ -276,3 +278,5 @@
   .inner-top-container, .inner-middle-container, .inner-bottom-container, .button-container, .text-container {
     .flex-column-center();
   }
+
+
