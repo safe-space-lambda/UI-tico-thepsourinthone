@@ -4,16 +4,30 @@
 
     .inner-container {
 
-        .image-container-one {
-            width: 365px;
-            height: auto;
+        .inner-top-container {
+            width: 100%;
 
-            @media @tablet {
-                width: 450px;
+            .image-container-one {
+                width: 100%;
+                height: auto;
+    
+                @media @tablet {
+                    width: 100%;
+                }
+              
+                @media @desktop {
+                    width: 100%;
+                }
             }
-          
+
             @media @desktop {
-                width: 500px;
+                width: 49%;
+            }
+        }
+
+        .inner-bottom-container {
+            @media @desktop {
+                width: 50%;
             }
         }
 
@@ -34,27 +48,26 @@
     
             .image-container-two {
                 display: inline-block;
-                width: 150px;
+                width: 100%;
                 height: auto;
     
                 @media @tablet {
-                    width: 100px;
+                    width: 100%;
                 }
               
                 @media @desktop {
-                    width: 125px;
+                    width: 100%;
                 }
             }
           
             @media @desktop {
-                width: 39%;
+                width: 49%;
             }
         }
 
         .inner-bottom-container {
-
             @media @desktop {
-                width: 60%;
+                width: 50%;
             }
         }
 
