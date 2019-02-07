@@ -1,14 +1,20 @@
+
+
 .tabs {
+    background-color: white;
     width: 100%;
+
     .tabs-items {
       width: 100%;
-      height: 300px;
+      height: 550px;
       display: flex;
       justify-content: center;
       padding-top: 60px;
     }
     .tabs-item {
       display: none; 
+      background-color: white;
+      color: black;
   
       width: 75%;
       .tabs-item-title {
@@ -23,27 +29,30 @@
   
     .tabs-links {
       display: flex;
-      background-color: @lambda-red;
+      background-color: white;
     }
   
     .tabs-link {
       padding: 20px 25px;
-      font-size: 24px;
-      background-color: @lambda-red;
+      font-size: 2.0rem;
+      background-color: @blurple;
       border-right: 1px solid white;
-      color: @white;
+      color: white;
       cursor: pointer;
+
       &:hover {
-        background-color: @lambda-light-red;
+        background-color: @twitter-blue;
+        color: white;
       }
     }
     .tabs-link-selected {
       z-index: 2;
-      border-right: 1px solid @lambda-red;
-      background-color: @white;
-      color: black;
+      border-right: 3px solid @ocean-green;
+      background-color: white;
+      color: @blurple;
       &:hover {
-        background-color: @white;
+		background-color: @duke-blue;
+		color: @pale-green;
       }
     }
   }
