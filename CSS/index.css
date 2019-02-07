@@ -573,7 +573,10 @@ img:hover {
   }
 }
 .tabs .tabs-item-selected {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .tabs .tabs-links {
   display: flex;
