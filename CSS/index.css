@@ -416,6 +416,16 @@ img:hover {
   font-weight: bold;
   color: #4361c2;
 }
+@media (min-width: 800px) {
+  .wolf-pack {
+    color: #c3e895;
+  }
+}
+@media (min-width: 1000px) {
+  .wolf-pack {
+    color: #4361c2;
+  }
+}
 .dropdown {
   z-index: 2;
   position: absolute;
