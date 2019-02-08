@@ -965,12 +965,14 @@ img:hover {
   #two .inner-container .inner-top-container,
   #two .inner-container .home-inner-top-container {
     width: 49%;
+    order: 2;
   }
 }
 @media (min-width: 1000px) {
   #two .inner-container .inner-bottom-container,
   #two .inner-container .home-inner-bottom-container {
     width: 50%;
+    order: 1;
   }
 }
 @media (min-width: 1000px) {
