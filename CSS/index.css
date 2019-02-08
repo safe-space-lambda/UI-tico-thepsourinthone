@@ -142,11 +142,17 @@ body {
 }
 body {
   box-sizing: border-box;
-  background-color: #8addaa;
   color: white;
-  max-width: 376px;
+  background-color: #8addaa;
+  min-width: 300px;
   width: 90%;
   margin: 0 auto;
+}
+@media (min-width: 300px) {
+  body {
+    background-color: #8addaa;
+    max-width: 375px;
+  }
 }
 @media (min-width: 400px) {
   body {

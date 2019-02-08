@@ -15,11 +15,16 @@ html, body {
 
 body {
     box-sizing: border-box;
-    background-color: @ocean-green;
     color: white;
-    max-width: 376px;
+    background-color: @ocean-green;
+    min-width: 300px;
     width: 90%;
     margin: 0 auto;
+
+    @media @iphone {
+        background-color: @ocean-green;
+        max-width: 375px;
+    }
 
     @media @android {
         background-color: @twitter-blue;
@@ -32,8 +37,8 @@ body {
     }
 
     @media @desktop {
-      background-color: @tiffany-blue;
-      max-width: 1250px;
+        background-color: @tiffany-blue;
+        max-width: 1250px;
     }
 }
 
