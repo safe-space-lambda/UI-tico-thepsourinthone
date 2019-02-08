@@ -244,13 +244,13 @@ p {
 }
 @media (min-width: 800px) {
   p {
-    font-size: 2rem;
+    font-size: 2.4rem;
     padding: 15px 30px;
   }
 }
 @media (min-width: 1000px) {
   p {
-    font-size: 2rem;
+    font-size: 2.4rem;
     padding: 30px 100px;
   }
 }
@@ -983,21 +983,50 @@ img:hover {
     align-items: center;
   }
 }
-#three {
-  border: 1px solid red;
+#three div.inner-container {
+  width: 100%;
 }
 #three div.inner-container .image-container-three {
-  width: 275px;
+  width: 100%;
   height: auto;
 }
 @media (min-width: 800px) {
   #three div.inner-container .image-container-three {
-    width: 475px;
+    width: 80%;
   }
 }
 @media (min-width: 1000px) {
   #three div.inner-container .image-container-three {
-    width: 300px;
+    width: 85%;
+  }
+}
+@media (min-width: 1000px) {
+  #three div.inner-container .inner-top-container {
+    width: 33%;
+  }
+}
+@media (min-width: 1000px) {
+  #three div.inner-container .inner-middle-container {
+    width: 33%;
+  }
+}
+@media (min-width: 1000px) {
+  #three div.inner-container .inner-bottom-container {
+    width: 33%;
+  }
+}
+@media (min-width: 1000px) {
+  #three div.inner-container .text-container p {
+    padding: 30px 40px;
+  }
+}
+@media (min-width: 1000px) {
+  #three div.inner-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-items: flex-start;
   }
 }
 #four a {
