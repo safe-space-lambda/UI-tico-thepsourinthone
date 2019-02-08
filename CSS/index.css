@@ -1031,6 +1031,12 @@ img:hover {
     align-items: flex-start;
   }
 }
+#four .image-container-four {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 #four a {
   text-decoration: none;
 }
