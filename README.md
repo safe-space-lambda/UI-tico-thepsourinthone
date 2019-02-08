@@ -2,6 +2,7 @@ Lambda School Build Weeks - Project #1
 =======
 ## Assignment: Planning and Building a Website
 ## Role: User Interface Developer
+## URL for live website: <a href="https://tico-safespace-master.netlify.com/"></a>
 ------
 
 ## The primary role of the UI Developer in this project:
