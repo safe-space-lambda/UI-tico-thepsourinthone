@@ -4,17 +4,36 @@
 
     .inner-container {
 
-        .image-container-one {
-            width: 365px;
-            height: auto;
+        .inner-top-container {
+            
+            .image-container-one {
+                width: 100%;
+                height: auto;
+    
+                @media @tablet {
+                    width: 100%;
+                }
+              
+                @media @desktop {
+                    width: 100%;
+                }
+            }
+        }
 
-            @media @tablet {
-                width: 450px;
-            }
-          
+        .home-inner-top-container {
+            width: 100%;
+
             @media @desktop {
-                width: 500px;
+                width: 49%;
             }
+
+        }
+
+        .home-inner-bottom-container {
+            @media @desktop {
+                width: 50%;
+            }
+
         }
 
         @media @desktop {
@@ -27,7 +46,7 @@
 
     .inner-container {
 
-        .inner-top-container {
+        .inner-top-container, .home-inner-top-container {
             .flex-row-center();
             .wrap();
             .space-around();
@@ -47,14 +66,15 @@
             }
           
             @media @desktop {
-                width: 39%;
+                width: 49%;
+                order: 2;
             }
         }
 
-        .inner-bottom-container {
-
+        .inner-bottom-container, .home-inner-bottom-container {
             @media @desktop {
-                width: 60%;
+                width: 50%;
+                order: 1;
             }
         }
 
@@ -69,19 +89,65 @@
 #three {
 
     div.inner-container {
+        width: 100%;
 
         .image-container-three {
-            width: 275px;
+            width: 100%;
             height: auto;
+
+            @media @tablet {
+                width: 80%;
+            }
+          
+            @media @desktop {
+                width: 85%;
+            }
         }
       
-        // @media @desktop {
-        //     .flex-row-center();
-        // }
+        .inner-top-container {
+
+            @media @desktop {
+                width: 33%;
+            }
+        }
+
+        .inner-middle-container {
+
+            @media @desktop {
+                width: 33%;
+            }
+        }
+
+        .inner-bottom-container {
+
+            @media @desktop {
+                width: 33%;
+            }
+        }
+
+        .text-container p {
+
+            @media @desktop {
+                padding: 30px 40px;
+            }
+                
+    
+            
+        }
+
+        @media @desktop {
+            .flex-row-center();
+            align-items: flex-start;
+        }
     }
 }
 
 #four {
+
+    .image-container-four {
+        .flex-column-center();
+        
+    }
 
     a {
         text-decoration: none;
