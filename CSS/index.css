@@ -983,9 +983,22 @@ img:hover {
     align-items: center;
   }
 }
+#three {
+  border: 1px solid red;
+}
 #three div.inner-container .image-container-three {
   width: 275px;
   height: auto;
+}
+@media (min-width: 800px) {
+  #three div.inner-container .image-container-three {
+    width: 475px;
+  }
+}
+@media (min-width: 1000px) {
+  #three div.inner-container .image-container-three {
+    width: 300px;
+  }
 }
 #four a {
   text-decoration: none;

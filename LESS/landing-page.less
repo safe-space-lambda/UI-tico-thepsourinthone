@@ -87,12 +87,21 @@
 }
 
 #three {
+    border: 1px solid red;
 
     div.inner-container {
 
         .image-container-three {
             width: 275px;
             height: auto;
+
+            @media @tablet {
+                width: 475px;
+            }
+          
+            @media @desktop {
+                width: 300px;
+            }
         }
       
         // @media @desktop {
