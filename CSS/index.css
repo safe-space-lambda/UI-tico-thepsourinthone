@@ -531,6 +531,8 @@ img:hover {
   flex-direction: row;
   background-color: white;
   width: 475px;
+  border: 1px solid red;
+  padding-bottom: 30px;
 }
 .tabs .tabs-items {
   width: 100%;
@@ -582,17 +584,17 @@ img:hover {
 }
 .tabs .tabs-item .tabs-item-image-container {
   display: inline-block;
-  width: 250px;
+  width: 270px;
   height: auto;
 }
 @media (min-width: 800px) {
   .tabs .tabs-item .tabs-item-image-container {
-    width: 300px;
+    width: 350px;
   }
 }
 @media (min-width: 1000px) {
   .tabs .tabs-item .tabs-item-image-container {
-    width: 350px;
+    width: 400px;
   }
 }
 .tabs .tabs-item-selected {
