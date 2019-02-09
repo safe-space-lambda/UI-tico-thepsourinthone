@@ -142,16 +142,23 @@ body {
 }
 body {
   box-sizing: border-box;
-  background-color: #8addaa;
   color: white;
-  max-width: 500px;
+  background-color: #8addaa;
+  min-width: 300px;
+  max-width: 375px;
   width: 90%;
   margin: 0 auto;
+}
+@media (min-width: 400px) {
+  body {
+    background-color: #57aed3;
+    max-width: 500px;
+  }
 }
 @media (min-width: 800px) {
   body {
     background-color: #6b88e6;
-    max-width: 801px;
+    max-width: 800px;
   }
 }
 @media (min-width: 1000px) {

@@ -15,20 +15,26 @@ html, body {
 
 body {
     box-sizing: border-box;
-    background-color: @ocean-green;
     color: white;
-    max-width: 500px;
+    background-color: @ocean-green;
+    min-width: 300px;
+    max-width: 375px;
     width: 90%;
     margin: 0 auto;
 
+    @media @android {
+        background-color: @twitter-blue;
+        max-width: 500px;
+    }
+
     @media @tablet {
-    background-color: @blurple;
-    max-width: 801px;
+        background-color: @blurple;
+        max-width: 800px;
     }
 
     @media @desktop {
-      background-color: @tiffany-blue;
-      max-width: 1250px;
+        background-color: @tiffany-blue;
+        max-width: 1250px;
     }
 }
 
