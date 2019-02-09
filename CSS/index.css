@@ -144,16 +144,9 @@ body {
   box-sizing: border-box;
   color: white;
   background-color: #8addaa;
-  min-width: 300px;
   max-width: 375px;
   width: 90%;
   margin: 0 auto;
-}
-@media (min-width: 400px) {
-  body {
-    background-color: #57aed3;
-    max-width: 500px;
-  }
 }
 @media (min-width: 800px) {
   body {
@@ -295,7 +288,7 @@ img:hover {
   font-size: 2rem;
   color: #6b88e6;
   border: 3px solid white;
-  padding: 10px 130px;
+  padding: 10px 20px;
   margin: 20px 0;
 }
 .button:hover {
@@ -537,7 +530,7 @@ img:hover {
   display: flex;
   flex-direction: row;
   background-color: white;
-  width: 475px;
+  width: 375px;
   padding-bottom: 30px;
 }
 .tabs .tabs-items {
@@ -590,7 +583,7 @@ img:hover {
 }
 .tabs .tabs-item .tabs-item-image-container {
   display: inline-block;
-  width: 270px;
+  width: 200px;
   height: auto;
 }
 @media (min-width: 800px) {
@@ -608,7 +601,7 @@ img:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 80%;
 }
 .tabs .tabs-item-selected h2.tabs-item-title {
   margin-bottom: 0px;
@@ -617,7 +610,7 @@ img:hover {
   display: flex;
   flex-direction: column;
   background-color: white;
-  width: 25%;
+  width: 30%;
 }
 @media (min-width: 800px) {
   .tabs .tabs-links {
